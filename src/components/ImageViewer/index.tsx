@@ -12,7 +12,7 @@ import ImageFrameWithLoading, { ImageSpec } from '../ImageFrameWithLoading';
 import { NavRow } from './navigation';
 
 const MainDiv = styled.div`
-  background-color: #333;
+  background-color: rgb(118, 118, 118);
   font-size: .9em;
   position: absolute;
   top: 0; bottom: 0; left: 0; right: 0;

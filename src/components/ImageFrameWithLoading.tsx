@@ -22,7 +22,7 @@ const LoadingOverlay = styled.div`
   right: 0;
   text-align: left;
   padding: .6em;
-  background-color: rgb(64, 64, 64);
+  background-color: rgb(118, 118, 118);
 `;
 
 export interface ImageSpecUrl {

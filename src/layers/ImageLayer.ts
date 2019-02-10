@@ -391,7 +391,8 @@ export default class ImageLayer extends Layer {
       throw new Error('Your browser does not supports WebGL FLoating Point Textures.');
     }
 
-    this.gl.clearColor(0.25, 0.25, 0.25, 1.0);
+    // 18% sRGB.
+    this.gl.clearColor(0.461, 0.461, 0.461, 1.0);
     this.gl.enable(this.gl.DEPTH_TEST);
 
     const program = this.initShaders();

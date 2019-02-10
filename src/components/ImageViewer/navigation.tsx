@@ -19,10 +19,10 @@ const NavLink = styled.a`
   text-decoration: none;
   white-space: nowrap;
   position: relative;
-  background-color: ${(props: any) => props.active ? '#7DC6C6' : 'inherit'};
-  color: ${(props: any) => props.active ? '#FFFFFF !important' : '#AAA !important'};
+  background-color: ${(props: any) => props.active ? '#2780e388' : 'inherit'};
+  color: ${(props: any) => props.active ? '#000000e6 !important' : '#000000e6 !important'};
   &:active {
-    background-color: ${(props: any) => props.active ? '#6DB6B6' : '#222'};
+    background-color: ${(props: any) => props.active ? '#2780e388' : '#2780e388'};
   }
   &:hover {
     flex-shrink: 0;
@@ -35,12 +35,12 @@ const NavLink = styled.a`
 const NavRowDiv = styled.div`
   display: block;
   padding: 0;
-  border-bottom: 1px solid #333;
-  background: #333;
-  color: #ccc;
+  border-bottom: 1px solid #dee2e6;
+  background: #f8f9fa;
+  color: #000000e6;
   display: flex;
   &:first-child {
-    border-top: 1px solid #333;
+    border-top: 1px solid #f8f9fa;
   }
   &:hover ${NavLink} {
     flex-shrink: 1;
